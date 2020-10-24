@@ -1,0 +1,45 @@
+/* base classes */
+.container{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+/* base classes end  */
+/* header styles  */
+.navbar {
+    margin-right: 730px;
+    margin-top: 48px;
+    margin-bottom: 49px;
+    
+}
+.nav-li{
+    margin-left: 30px;
+}
+.nav-a{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+/* header styles end  */
+/* banner section  */
+.bg-banner{
+    background-image: url("../img/Fashion88.png");
+    height: 382px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* banner section end  */
