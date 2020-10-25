@@ -4,6 +4,11 @@
     width: 100%;
     margin: 0 auto;
 }
+.container-inner{
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+}
 .float-left{
     float: left;
 }
@@ -28,7 +33,7 @@
     font-size: 16px;
     text-transform: uppercase;
     font-family: 'Roboto';
-    font-weight: bold;
+    font-weight: initial;
 }
 
 /* header styles end  */
@@ -41,5 +46,33 @@
     background-size: cover;
     position: relative;
 }
-
+.text-li{
+    position: absolute;
+    top: 105px;
+    left: 647px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 22px;
+}
+.text-li-01{
+    position: absolute;
+    top: 132px;
+    left: 700px;
+    font-family: 'Roboto';
+    font-size: 48px;
+    color: #fff;
+}
 /* banner section end  */
+/* title  section  */
+.title-section {
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+.title-h1{
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #FF7A00;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+/* title section end  */
