@@ -20,6 +20,12 @@
 }
 /* base classes end  */
 /* header styles  */
+.header-section{
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    width: 100%;
+}
 .navbar {
     margin-right: 730px;
     margin-top: 48px;
@@ -38,6 +44,9 @@
 
 /* header styles end  */
 /* banner section  */
+.banner-section{
+    padding-top: 120px;
+}
 .bg-banner{
     background-image: url("../img/Fashion88.png");
     height: 382px;
@@ -81,7 +90,8 @@
 /* post section  */
 .left-box{
     width: 635px;
-
+    margin-right: 52px;
+   
 }
 .title-h4{
     width: 563px;
@@ -112,5 +122,18 @@
     margin-left: 18px;
     background-color: #FF7A00;
     display: inline-block;
+}
+.right-box{
+    width: 635px;
+    
+}
+.left-box-01{
+    width: 635px;
+    margin-top: 57px;
+    margin-right: 52px;
+}
+.right-box-01{
+    width: 635px;
+    margin-top: 57px;
 }
 /* post section end  */
