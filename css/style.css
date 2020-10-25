@@ -99,6 +99,7 @@
     font-size: 36px;
     font-weight: bold;
     color: #181C28;
+    margin-top: 20px;
 }
 .text-p{
     font-family: 'Roboto';
@@ -137,3 +138,28 @@
     margin-top: 57px;
 }
 /* post section end  */
+/* load more section  */
+.load-section {
+    margin-top: 65px;
+    margin-bottom: 134px;
+}
+.loda-more{
+    width: 190px;
+    height: 70px;
+    background-color: #FF7A00;
+    margin: 0 auto;
+}
+.load-p{
+    padding: 23px 48px;
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 16px;
+}
+/* load more section end  */
+/* clear-section */
+.clear-section{
+    height: 266px;
+    background-color: #181C28;
+    display: block;
+}
+/* clear-section end  */
